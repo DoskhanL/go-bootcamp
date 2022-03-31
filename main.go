@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/doskhanl/go-bootcamp/exercises"
+	"github.com/doskhanl/go-bootcamp/tutorials"
 )
 
 func main() {
@@ -28,7 +29,9 @@ func main() {
 	// tutorials.ShowString()
 	// tutorials.Banger()
 
-	exercises.StringsTask()
+	//exercises.StringsTask()
+	tutorials.ConstantsTask()
+	exercises.IotaMain()
 }
 
 func printArgs() {
