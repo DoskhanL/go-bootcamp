@@ -4,26 +4,29 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/doskhanl/go-bootcamp/exercises"
+	"github.com/doskhanl/go-bootcamp/tutorials"
 )
 
 func main() {
 	printArgs()
-	exercises.MakeItBlue()
-	exercises.VarsToVars()
-	exercises.AssignWithExp()
-	exercises.RectanglePerimeter()
-	exercises.MultiAssign()
-	exercises.MultiAssignSecond()
-	exercises.MultiShortFunc()
-	exercises.Swapper()
-	exercises.SwapperSecond()
-	exercises.DiscardTheFile()
-	exercises.FixIt()
-	exercises.CountArgs()
-	exercises.PrintThePath()
-	exercises.PrintMe()
-	exercises.GreetMore()
+	// exercises.MakeItBlue()
+	// exercises.VarsToVars()
+	// exercises.AssignWithExp()
+	// exercises.RectanglePerimeter()
+	// exercises.MultiAssign()
+	// exercises.MultiAssignSecond()
+	// exercises.MultiShortFunc()
+	// exercises.Swapper()
+	// exercises.SwapperSecond()
+	// exercises.DiscardTheFile()
+	// exercises.FixIt()
+	// exercises.CountArgs()
+	// exercises.PrintThePath()
+	// exercises.PrintMe()
+	// exercises.GreetMore()
+
+	tutorials.ShowString()
+
 }
 
 func printArgs() {
