@@ -20,7 +20,10 @@ func main() {
 	exercises.SwapperSecond()
 	exercises.DiscardTheFile()
 	exercises.FixIt()
-
+	exercises.CountArgs()
+	exercises.PrintThePath()
+	exercises.PrintMe()
+	exercises.GreetMore()
 }
 
 func printArgs() {
