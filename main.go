@@ -30,8 +30,11 @@ func main() {
 	// tutorials.Banger()
 
 	//exercises.StringsTask()
-	tutorials.ConstantsTask()
-	exercises.IotaMain()
+	//tutorials.ConstantsTask()
+	//exercises.IotaMain()
+
+	tutorials.MainPrint()
+	exercises.Formattings()
 }
 
 func printArgs() {

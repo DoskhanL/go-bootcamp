@@ -1,2 +1,2 @@
-run:
-	go build -o greeter && ./greeter İNANÇ
+build:
+	go build -o greeter
