@@ -1,0 +1,237 @@
+[
+	{
+		"Name": "V",
+		"Bool": true,
+		"Usage": "print version and exit"
+	},
+	{
+		"Name": "all",
+		"Bool": true,
+		"Usage": "no effect (deprecated)"
+	},
+	{
+		"Name": "asmdecl",
+		"Bool": true,
+		"Usage": "enable asmdecl analysis"
+	},
+	{
+		"Name": "assign",
+		"Bool": true,
+		"Usage": "enable assign analysis"
+	},
+	{
+		"Name": "atomic",
+		"Bool": true,
+		"Usage": "enable atomic analysis"
+	},
+	{
+		"Name": "bool",
+		"Bool": true,
+		"Usage": "deprecated alias for -bools"
+	},
+	{
+		"Name": "bools",
+		"Bool": true,
+		"Usage": "enable bools analysis"
+	},
+	{
+		"Name": "buildtag",
+		"Bool": true,
+		"Usage": "enable buildtag analysis"
+	},
+	{
+		"Name": "buildtags",
+		"Bool": true,
+		"Usage": "deprecated alias for -buildtag"
+	},
+	{
+		"Name": "c",
+		"Bool": false,
+		"Usage": "display offending line with this many lines of context"
+	},
+	{
+		"Name": "cgocall",
+		"Bool": true,
+		"Usage": "enable cgocall analysis"
+	},
+	{
+		"Name": "composites",
+		"Bool": true,
+		"Usage": "enable composites analysis"
+	},
+	{
+		"Name": "composites.whitelist",
+		"Bool": true,
+		"Usage": "use composite white list; for testing only"
+	},
+	{
+		"Name": "compositewhitelist",
+		"Bool": true,
+		"Usage": "deprecated alias for -composites.whitelist"
+	},
+	{
+		"Name": "copylocks",
+		"Bool": true,
+		"Usage": "enable copylocks analysis"
+	},
+	{
+		"Name": "errorsas",
+		"Bool": true,
+		"Usage": "enable errorsas analysis"
+	},
+	{
+		"Name": "flags",
+		"Bool": true,
+		"Usage": "print analyzer flags in JSON"
+	},
+	{
+		"Name": "framepointer",
+		"Bool": true,
+		"Usage": "enable framepointer analysis"
+	},
+	{
+		"Name": "httpresponse",
+		"Bool": true,
+		"Usage": "enable httpresponse analysis"
+	},
+	{
+		"Name": "ifaceassert",
+		"Bool": true,
+		"Usage": "enable ifaceassert analysis"
+	},
+	{
+		"Name": "json",
+		"Bool": true,
+		"Usage": "emit JSON output"
+	},
+	{
+		"Name": "loopclosure",
+		"Bool": true,
+		"Usage": "enable loopclosure analysis"
+	},
+	{
+		"Name": "lostcancel",
+		"Bool": true,
+		"Usage": "enable lostcancel analysis"
+	},
+	{
+		"Name": "methods",
+		"Bool": true,
+		"Usage": "deprecated alias for -stdmethods"
+	},
+	{
+		"Name": "nilfunc",
+		"Bool": true,
+		"Usage": "enable nilfunc analysis"
+	},
+	{
+		"Name": "printf",
+		"Bool": true,
+		"Usage": "enable printf analysis"
+	},
+	{
+		"Name": "printf.funcs",
+		"Bool": false,
+		"Usage": "comma-separated list of print function names to check"
+	},
+	{
+		"Name": "printfuncs",
+		"Bool": false,
+		"Usage": "deprecated alias for -printf.funcs"
+	},
+	{
+		"Name": "rangeloops",
+		"Bool": true,
+		"Usage": "deprecated alias for -loopclosure"
+	},
+	{
+		"Name": "shift",
+		"Bool": true,
+		"Usage": "enable shift analysis"
+	},
+	{
+		"Name": "sigchanyzer",
+		"Bool": true,
+		"Usage": "enable sigchanyzer analysis"
+	},
+	{
+		"Name": "source",
+		"Bool": true,
+		"Usage": "no effect (deprecated)"
+	},
+	{
+		"Name": "stdmethods",
+		"Bool": true,
+		"Usage": "enable stdmethods analysis"
+	},
+	{
+		"Name": "stringintconv",
+		"Bool": true,
+		"Usage": "enable stringintconv analysis"
+	},
+	{
+		"Name": "structtag",
+		"Bool": true,
+		"Usage": "enable structtag analysis"
+	},
+	{
+		"Name": "tags",
+		"Bool": false,
+		"Usage": "no effect (deprecated)"
+	},
+	{
+		"Name": "testinggoroutine",
+		"Bool": true,
+		"Usage": "enable testinggoroutine analysis"
+	},
+	{
+		"Name": "tests",
+		"Bool": true,
+		"Usage": "enable tests analysis"
+	},
+	{
+		"Name": "unmarshal",
+		"Bool": true,
+		"Usage": "enable unmarshal analysis"
+	},
+	{
+		"Name": "unreachable",
+		"Bool": true,
+		"Usage": "enable unreachable analysis"
+	},
+	{
+		"Name": "unsafeptr",
+		"Bool": true,
+		"Usage": "enable unsafeptr analysis"
+	},
+	{
+		"Name": "unusedfuncs",
+		"Bool": false,
+		"Usage": "deprecated alias for -unusedresult.funcs"
+	},
+	{
+		"Name": "unusedresult",
+		"Bool": true,
+		"Usage": "enable unusedresult analysis"
+	},
+	{
+		"Name": "unusedresult.funcs",
+		"Bool": false,
+		"Usage": "comma-separated list of functions whose results must be used"
+	},
+	{
+		"Name": "unusedresult.stringmethods",
+		"Bool": false,
+		"Usage": "comma-separated list of names of methods of type func() string whose results must be used"
+	},
+	{
+		"Name": "unusedstringmethods",
+		"Bool": false,
+		"Usage": "deprecated alias for -unusedresult.stringmethods"
+	},
+	{
+		"Name": "v",
+		"Bool": true,
+		"Usage": "no effect (deprecated)"
+	}
+]

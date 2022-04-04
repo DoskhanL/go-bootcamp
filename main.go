@@ -37,7 +37,8 @@ func main() {
 
 	// exercises.MainIf()
 
-	tutorials.ErrorHandlingMain()
+	// tutorials.ErrorHandlingMain()
+	tutorials.ShortIf()
 }
 
 func printArgs() {
