@@ -17,6 +17,7 @@ import (
 //  You should change 30 to your age, of course.
 // ---------------------------------------------------------
 
+// Formattings function
 func Formattings() {
 	// ?
 	fmt.Printf("I'm %d years old.\n", 37)

@@ -24,6 +24,7 @@ import (
 //  Nice to meet you all.
 // ---------------------------------------------------------
 
+// GreetMore function
 func GreetMore() {
 	// TYPE YOUR CODE HERE
 

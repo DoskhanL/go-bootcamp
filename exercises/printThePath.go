@@ -20,6 +20,7 @@ import (
 //  myprogram
 // ---------------------------------------------------------
 
+// PrintThePath function
 func PrintThePath() {
 	_, file := path.Split(os.Args[0])
 	fmt.Println(file)

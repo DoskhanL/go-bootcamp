@@ -25,6 +25,7 @@ import (
 //    Booting up
 // ---------------------------------------------------------
 
+// MainIf if conditions
 func MainIf() {
 	// Change this accordingly to produce the expected outputs
 	age := 10

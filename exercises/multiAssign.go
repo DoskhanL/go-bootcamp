@@ -15,6 +15,7 @@ import "fmt"
 //  go version 2
 // ---------------------------------------------------------
 
+// MultiAssign function
 func MultiAssign() {
 	// DO NOT TOUCH THIS
 	var (
@@ -26,6 +27,8 @@ func MultiAssign() {
 	lang, version = "go", 2
 	// DO NOT TOUCH THIS
 	fmt.Println(lang, "version", version)
+
+	multiAssignSecond()
 }
 
 // ---------------------------------------------------------
@@ -45,7 +48,8 @@ func MultiAssign() {
 //  It is 19.5 degrees
 // ---------------------------------------------------------
 
-func MultiAssignSecond() {
+// MultiAssignSecond function
+func multiAssignSecond() {
 	// UNCOMMENT THE CODE BELOW:
 
 	var (

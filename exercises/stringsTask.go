@@ -22,6 +22,7 @@ import (
 //  Only that it should use a raw string literal instead.
 // ---------------------------------------------------------
 
+// StringsTask function
 func StringsTask() {
 	// HINTS:
 	// \\ equals to backslash character

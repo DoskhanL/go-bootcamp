@@ -28,6 +28,7 @@ import (
 //    How are you?
 // ---------------------------------------------------------
 
+// PrintMe function
 func PrintMe() {
 	// get your name from the command-line
 	// and print it

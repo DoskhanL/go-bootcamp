@@ -5,18 +5,18 @@ import (
 	"os"
 )
 
-// ---------------------------------------------------------
-// EXERCISE: Count the Arguments
-//
-//  Print the count of the command-line arguments
-//
-// INPUT
-//  bilbo balbo bungo
-//
-// EXPECTED OUTPUT
-//  There are 3 names.
-// ---------------------------------------------------------
+/*
+EXERCISE: Count the Arguments
+ Print the count of the command-line arguments
 
+INPUT
+ bilbo balbo bungo
+
+EXPECTED OUTPUT
+ There are 3 names.
+*/
+
+// CountArgs counting age
 func CountArgs() {
 	// UNCOMMENT & FIX THIS CODE
 	count := len(os.Args) - 1

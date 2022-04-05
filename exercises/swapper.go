@@ -16,6 +16,7 @@ import "fmt"
 //  orange green
 // ---------------------------------------------------------
 
+// Swapper function
 func Swapper() {
 	// UNCOMMENT THE CODE BELOW:
 
@@ -25,6 +26,8 @@ func Swapper() {
 	color, color2 = "orange", "green"
 
 	fmt.Println(color, color2)
+
+	swapperSecond()
 }
 
 // ---------------------------------------------------------
@@ -38,7 +41,8 @@ func Swapper() {
 //  blue red
 // ---------------------------------------------------------
 
-func SwapperSecond() {
+// SwapperSecond function
+func swapperSecond() {
 	// UNCOMMENT THE CODE BELOW:
 
 	red, blue := "red", "blue"

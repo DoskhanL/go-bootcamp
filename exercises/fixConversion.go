@@ -11,6 +11,7 @@ import "fmt"
 //  15.5
 // ---------------------------------------------------------
 
+//FixIt function for fixing
 func FixIt() {
 	a, b := 10, 5.5
 	fmt.Println(float64(a) + b)

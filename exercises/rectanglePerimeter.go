@@ -24,6 +24,7 @@ import "fmt"
 //  https://www.mathsisfun.com/area.html
 // ---------------------------------------------------------
 
+// RectanglePerimeter function
 func RectanglePerimeter() {
 
 	// UNCOMMENT THE CODE BELOW:

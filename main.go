@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/doskhanl/go-bootcamp/tutorials"
+	"github.com/doskhanl/go-bootcamp/exercises"
 )
 
 func main() {
@@ -38,7 +38,9 @@ func main() {
 	// exercises.MainIf()
 
 	// tutorials.ErrorHandlingMain()
-	tutorials.ShortIf()
+	// tutorials.ShortIf()
+
+	exercises.ErrorHandlingMain()
 }
 
 func printArgs() {

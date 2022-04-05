@@ -12,6 +12,8 @@ import "fmt"
 // EXPECTED OUTPUT
 //  blue
 // ---------------------------------------------------------
+
+// MakeItBlue function
 func MakeItBlue() {
 	// UNCOMMENT THE CODE BELOW:
 

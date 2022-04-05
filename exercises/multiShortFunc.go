@@ -21,6 +21,7 @@ import "fmt"
 //  4
 // ---------------------------------------------------------
 
+// MultiShortFunc func
 func MultiShortFunc() {
 	// ADD YOUR DECLARATIONS HERE
 	//
