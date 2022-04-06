@@ -5,10 +5,11 @@ import (
 	"os"
 
 	"github.com/doskhanl/go-bootcamp/exercises"
+	"github.com/doskhanl/go-bootcamp/tutorials"
 )
 
 func main() {
-	printArgs()
+	// printArgs()
 	// exercises.MakeItBlue()
 	// exercises.VarsToVars()
 	// exercises.AssignWithExp()
@@ -40,7 +41,11 @@ func main() {
 	// tutorials.ErrorHandlingMain()
 	// tutorials.ShortIf()
 
-	exercises.ErrorHandlingMain()
+	// exercises.ErrorHandlingMain()
+
+	tutorials.SwitchMain()
+
+	exercises.SwitchMain()
 }
 
 func printArgs() {
