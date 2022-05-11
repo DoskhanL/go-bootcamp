@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/doskhanl/go-bootcamp/tutorials"
+	"github.com/doskhanl/go-bootcamp/exercises"
 )
 
 func main() {
@@ -50,7 +50,10 @@ func main() {
 	// exercises.StringManipulator()
 
 	//exercises.DaysInMonthSwitch()
-	tutorials.MainLoop()
+
+	//tutorials.MainLoop()
+	exercises.LoopMain()
+
 }
 
 func printArgs() {
