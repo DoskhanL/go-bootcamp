@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/doskhanl/go-bootcamp/helper"
+	"github.com/doskhanl/go-bootcamp/tutorials"
 )
 
 func main() {
@@ -45,7 +45,12 @@ func main() {
 	// tutorials.SwitchMain()
 
 	// exercises.SwitchMain()
-	helper.OperatePoints()
+	// helper.OperatePoints()
+
+	// exercises.StringManipulator()
+
+	//exercises.DaysInMonthSwitch()
+	tutorials.MainLoop()
 }
 
 func printArgs() {
