@@ -52,8 +52,10 @@ func main() {
 	//exercises.DaysInMonthSwitch()
 
 	//tutorials.MainLoop()
-	exercises.LoopMain()
+	// exercises.LoopMain()
 
+	// projects.RandMain()
+	exercises.RandMain()
 }
 
 func printArgs() {
