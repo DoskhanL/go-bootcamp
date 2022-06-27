@@ -459,7 +459,7 @@ Wanna play?
 
 	fmt.Printf("Max turns is %d\n", maxTurns)
 	rand.Seed(time.Now().UnixNano())
-	for item := 0; item < maxTurns; item++ {
+	for item := maxTurns; maxTurns > 0; item-- {
 
 		n := rand.Intn(guess) + 1
 		fmt.Printf("%d ", n)

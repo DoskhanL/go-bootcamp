@@ -55,7 +55,11 @@ func main() {
 	// exercises.LoopMain()
 
 	// projects.RandMain()
-	exercises.RandMain()
+	// exercises.RandMain()
+
+	// tutorials.WordFinder()
+	exercises.LabelsMain()
+
 }
 
 func printArgs() {
